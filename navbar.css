@@ -1,0 +1,187 @@
+     /* .nav-logo{
+            width: 100px;
+            position: relative;
+            top: 0;
+            margin-bottom: 1rem;
+        } */
+        
+        .right-menu{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            /* background-color:  #f3efea; */
+            
+            box-shadow: 7px 5px 8px #fff;
+        }
+
+        .nav-logo{
+          /* position: fixed; */
+          width: 170px;
+          margin-left: 2%;
+          position: absolute;
+          top: 10%;
+          /* top: 10%; */
+          z-index: 100;
+        }
+        
+        .large-screen-menu{
+            position: absolute;
+            z-index: 10;
+            /* margin-top: 3rem; */
+            /* display: flex; */
+            /* justify-content: space-between; */
+            /* border-bottom: 2px solid #ccc; */
+            opacity: 0.8;
+            font-family: "Raleway", sans-serif;
+            font-weight: 400;
+            /* padding: 1rem 4rem; */
+            /* border: 2px solid green; */
+            /* width: 100%; */
+            /* gap: 35px; */
+            /* position: fixed;
+            top: 0; */
+            /* margin-right: 2rem; */
+            /* gap: 3rem; */
+            padding: 1rem;
+            font-size: 0.8rem;
+            
+        }
+        
+        /* navbar on scroll effect */
+        .window-scroll {
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            height: 8vh;
+            /* background-color: #222; */
+            /* color: #006608;
+color: #0c362f;   */
+            background-color:  #0c362f;
+            box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.7) ;
+            /* padding: 2rem; */
+            /* padding: 1rem; */
+            text-align: end;
+            transition: 0.2s ease in;
+        }
+        
+        .large-screen-menu a{
+            text-decoration: none;
+            /* color: #fff; */
+            color: rgb(231,184,128);
+            padding-right: 1.7rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-shadow: 2px 3px #222;
+            /* font-style: italic; */
+        }
+        
+        .large-screen-menu a:hover{
+            opacity: 0.8;
+            transition: all 0.2s ease-in;
+        }
+
+        .nav-items .active{
+          color: rgb(192, 170, 125);
+          /* text-decoration: underline; */
+        }
+        
+        /* 
+        .active {
+            background-color: #fff;
+            border-bottom: 5px solid rgb(248, 6, 6);
+            font-weight: 800;
+          } */
+        
+        
+        .mobile-menu{
+            /* position: relative; */
+            /* top: 0;
+            left: 0; */
+        }
+        
+          #mySidenav{
+            position: fixed;
+            top: 0;
+            margin-top: 0.6rem;
+        }
+        
+        .sidenav {
+            height: 49%;
+            width: 0;
+            position: absolute;
+            z-index: 100;
+            top: 0px;
+            right: 0;
+            margin: 2px;
+            background-color: black;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 10px;
+            transition: 0.3s ease-in;
+            
+          }
+        
+          .menu-icon{
+            position: fixed;
+            top: 0;
+            right: 0;
+            color: black;
+            /* margin-top: 0.6rem; */
+            margin-right: 0.6rem;
+          }
+          
+          .sidenav a {
+            padding: 8px 8px 8px 52px;
+            text-decoration: none;
+            font-size: 1rem;
+            /* color: #b99755; */
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidenav a:hover {
+            color: #deeee3;
+          }
+          
+          .sidenav .closebtn {
+            position: absolute;
+            top: 5px;
+            right: 0;
+            font-size: 5rem;
+            margin-right: 0.5rem;
+          }
+        
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+        
+        /* ============ navbar ends here XX ===== */
+        
+        
+        
+        
+        
+        
+        
+        
+        @media (min-width: 1025px) {
+            .mobile-menu{
+              display: none;
+            }
+
+      
+    }
+        
+        
+          @media (max-width: 1024px) {
+            .large-screen-menu{
+              display: none;
+            }
+
+        
+
+           
+
+        }

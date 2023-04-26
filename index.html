@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <title>The Shubham Group tsgc</title>
+    
+    <link rel="stylesheet" href="sliders.css">
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
+    
+    <!-- for shubham heading -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Spectral:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- raleway fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        margin: 0;
+        width: 100%;
+    }
+
+    #main{
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        /* position: absolute; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    #grid{
+        background: url(./images/slide/bg2.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+
+    #bgtext{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18em;
+        color: rgb(37,38,44);
+        letter-spacing: 0.5em;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-top: 50px;
+        line-height: 300px;
+    }
+    /* .gridline{
+        position: absolute;
+        top: 0px;
+        bottom: 8px;
+        width: 10%;
+        margin: 0 0 0 -5%;
+        border-right: 1px solid rgb(37, 38, 44);
+        transform-origin: 100% 50%;
+    }
+
+    .gridline:nth-child(2){
+        left: 10%;
+        right: 10%;
+    }
+
+    .gridline:nth-child(3){
+        left: 200%;
+        right: 20%;
+    }
+
+    .gridline:nth-child(4){
+        left: 30%;
+        right: 30%;
+    }
+
+    .gridline:nth-child(5){
+        left: 40%;
+        right: 40%;
+    }
+
+    .gridline:nth-child(6){
+        left: 50%;
+        right: 50%;
+    }
+
+    .gridline:nth-child(7){
+        left: 60%;
+        right: 60%;
+    }
+
+    .gridline:nth-child(8){
+        left: 70%;
+        right: 70%;
+    }
+
+    .gridline:nth-child(9){
+        left: 80%;
+        right: 80%;
+    }
+
+    .gridline:nth-child(10){
+        left: 90%;
+        right: 90%;
+    }
+
+    .gridline:nth-child(11){
+        left: 100%;
+        right: 100%;
+    } */
+
+    /* #logo{
+        position: absolute;
+        left: 50px;
+        top: 30px;
+    }
+
+    #logo img{
+        width: 50px;
+    }
+
+    #menu{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        color: white;
+        letter-spacing: 3px;
+        position: fixed;
+        top: 5%;
+        left: 45%;
+        transform: rotate(-90deg);
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1rem;
+        z-index: 100;
+        width: 100%;
+    }
+
+    #menu ul{
+        list-style: none;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+
+    #imgs img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #img1{
+        width: 38%;
+        margin-left: 20%;
+    }
+
+    #img2{
+        width: 100%;
+    }
+
+    #img3{
+        width: 50%;
+        z-index: 2;
+    }
+
+    #img4{
+        width: 90%;
+    }
+    #img5{
+        width: 40%;
+        margin-left: -30%;
+        z-index: 0;
+    }
+
+    #imgtree{
+        width: 55%;
+        margin-left: -30%;
+        z-index: 0;
+        margin-top: -10%;
+    }
+
+    #img6{
+        width: 30%;
+        margin-top: 17%;
+        margin-left: 17%;
+        z-index: 2;
+    } */
+
+    
+</style>
+<body>
+
+
+    
+
+    <!--------------------------------- navbar    ------------------------------------------------------------>
+
+ <div class="right-menu ">
+        
+    <div class="large-screen-menu "  id="nav">
+        
+        <a class="nav-items " href="#home">Home</a>
+        <a class="nav-items "  href="#about">About Us</a>
+        <!-- <a class="nav-items" href="#">Our Team</a> -->
+        <a class="nav-items" href="#our-projects">Our Projects</a>
+        <a class="nav-items" href="#contact">Vendor</a>
+        <a class="nav-items" href="#contact">Investor</a>
+        <a class="nav-items" href="#contact">Associates</a>
+
+
+        <a class="nav-items" href="#">Gallery</a>
+        <a class="nav-items" href="#contact">Contact</a>
+             
+      </div>            
+    </div> <!---large screen menu -->
+
+    <div class="nav-logo">
+        <img class="nav-logo" src="./images/logo.png" alt="">
+    </div>
+   
+   
+
+</div> <!---right-menu-->
+
+<div class="mobile-menu">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <!-- <a href="#">Our Team</a> -->
+        <a href="#our-projects">Our Projects</a>
+        <a href="#contact">Vendor</a>
+        <a href="#contact">Investor</a>
+        <a href="#contact">Associates</a>
+        <a href="#">Gallery</a>
+        <a href="#contact">Contact</a>
+
+        <span class="menu-icon" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+        
+      </div>
+      
+   
+
+    </div> 
+    <!---mobile menu -->
+ 
+
+
+
+
+
+
+<!---------------------------- XX navbar ends here XX --------------------->
+
+
+
+
+<!-- swipper -->
+<section id="home">
+<div id="main-swipper">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+                <img src="./images/slidder1.jpg" alt="">
+                <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+                <h5>Simer Preet</h5>
+                <h6>Star Programmer</h6> -->
+    
+              </div>
+
+          <div class="swiper-slide">
+            <img src="./images/slidder2.jpg" alt="">
+            <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+            <h5>Simer Preet</h5>
+            <h6>Star Programmer</h6> -->
+
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/slidder3.jpg" alt="">
+            <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+            <h5>Simer Preet</h5>
+            <h6>Star Programmer</h6> -->
+
+          </div>
+
+
+          <div class="swiper-slide">
+            <img src="./images/slidder4.jpg" alt="">
+            <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+            <h5>Simer Preet</h5>
+            <h6>Star Programmer</h6> -->
+
+          </div>
+
+
+        <div class="swiper-slide">
+            <img src="./images/slidder5.jpg" alt="">
+            <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+            <h5>Simer Preet</h5>
+            <h6>Star Programmer</h6> -->
+
+          </div>
+          
+
+          
+        <div class="swiper-slide">
+            <img src="./images/slidder3.jpg" alt="">
+            <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis aliquid sed illo quos dicta, iste doloremque maxime.</h3>
+            <h5>Simer Preet</h5>
+            <h6>Star Programmer</h6> -->
+
+          </div>
+
+        
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+</div>
+
+</section>
+<!-- swipper -->
+
+
+
+
+<section id="home-container">
+    <div id="home-wrapper">
+
+        <div id="home-content-h">
+            <h1><span id="shubham-group">The Shubham Group</span></h1>
+
+            <h1 id="of-companies">Of Companies</h1>
+            
+            <h3 id="what-we-do">Real Estate, Construction, Resorts, Collaboration</h3>
+            
+        </div>
+    </div> <!---home-wrapper-->
+</section> <!---- home container-->
+
+    <div id="main">
+        <div id="grid">
+            <!-- <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div>
+            <div class="gridline"></div> -->
+
+        </div> <!---grid-->
+
+        <!-- <div id="bgtext">
+            DAFT <br> CREATATION
+        </div>  -->
+        <!---- BGTEXT-->
+
+        <div id="logo">
+            <img src="./images/4.png" alt="">
+        </div>
+
+     
+
+
+<!-- 
+        <div id="menu">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>PROJECT</li>
+                <li>CONTACT</li>
+
+            </ul>
+        </div> -->
+
+       
+
+        <div id="imgs">
+            <!-- <img src="./images/slide/6.png" data-speed="-5" class="layer" id="img1" alt=""> -->
+            <!-- <img src="./images/slide/items.png"data-speed="5" class="layer" id="img2" alt=""> -->
+            <!-- <img src="./images/slide/1.png"  data-speed="-2" class="layer" id="img3" alt=""> -->
+            <!-- <img src="./images/slide/items.png"  data-speed="9" class="layer" id="img4" alt=""> -->
+
+            <!-- <img src="./images/slide/2.png"  data-speed="9" class="layer" id="img5" alt=""> -->
+
+            <!-- <img src="./images/slide/items.png"  data-speed="9" class="layer" id="imgtree" alt=""> -->
+
+            <!-- <img src="./images/slide/5.png"  data-speed="9" class="layer" id="img6" alt=""> -->
+            
+
+
+
+        </div>
+
+    </div> <!---main-->
+
+    <!-- ========================== background images ======== -->
+
+    
+
+  
+
+
+    <!-- ============== about us ============= -->
+
+    <section id="about">
+       
+
+        <h1 id="about-us-h">About <span class="green-color-text">us</span></h1>
+        <div id="about-container">
+
+
+            <div id="left-side">                
+                <div id="content">
+
+                        
+                    <p>SHAPING YOUR DREAMS...</p>
+                    <h1>The Shubham Group.</h1>
+                    
+                    <h3>Shubham Build up Pvt Ltd. started its journey in 2009 with the aim of providing the second
+                        home in the bosom of nature with the fragrance of spiritual ambience. We are determined to
+                        provide a priceless life style away from the busy city life as a gift for the people who prefer to live
+                        the second phase of life adoring nature.</h3>
+
+                        <h3>The Shubham Group has successfully launched and delivered its three residential projects named
+                           <span class="project-bold"> Indus valley Mukteshwar Nainital, Ambika Divinity Haridwar and Indus valley Shimla </span> with
+                            the growth of 200% in a decade .
+                            In a less span of time, the company has drastically entered other fields such as Collaboration,
+                            Construction and Resorts. To manage this expansion Shubham Buildup Pvt Ltd. converted into THE
+                            SHUBHAM GROUP OF COMPANIES (TSGC Delhi). </h3>
+                       
+
+                         
+
+                              
+                    
+
+                </div> <!-- content -->
+            </div> <!---- left-side -->
+
+
+            <div id="right-side">
+
+                <div id="right-img">
+                    <img src="./images/about-us.jpg" alt="">
+                </div>
+
+            </div> <!---- right-side-->
+
+
+
+        </div> <!--- about-container ----->
+    </section>
+
+    <!-- ============= XX about us XX ============= -->
+
+
+
+<!-- ================ explore ======== -->
+
+    <div id="our-projects">
+    <section id="main-sliders">
+
+        <div id="slider-h">
+            
+        <h1>Explore <span class="green-color-text"> OUR PROJECTS...</span></h1>
+        <h3>After the remarkbale success in shaping the dream house on breath taking mountains. The Shubham Group of Companies (tsgc) has now entered into other fields.</h3>
+        <p>TSGC Delhi holds the following companies under itself.</p>
+
+        <div id="tsgc-companies">
+            <ul>
+                <li>Shubham Build Up LTD</li>
+                <li>Shubham Buildtech LLP</li>
+                <li>Shubham Builston LLP</li>
+                <li>Shape My House</li>
+                <li>Chail Heights Villa LLP</li>
+                <li>Chail Heights Resort LLP</li>
+                <li>Nirmanam Relators LLP</li>
+            </ul>
+        </div>
+
+
+      
+        
+ <div class="card-container">
+    <div class="wrapper">
+
+
+        <div class="card-body">
+            <div class="property-desc" >
+                <h1 style="font-size: 1rem; margin-top: -16%; font-size: 1.5rem; text-decoration: underline;">Appartments & Villas</h1>
+            </div>
+        <div class="card">
+            
+            <img src="./images/indus-valley.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://www.indusvalleymukteshwar.com/" target="_blank" class="read-btn">Read More</a>
+             
+            </div>           
+        </div> <!---- card -->
+        <div class="property-type">
+           <a href="https://www.indusvalleymukteshwar.com/" target="_blank">www.indusvalleymukteshwar.com</a>
+        </div>
+
+        <!-- <div id="type-property1">
+            <h1>Appartment & Villas</h1>
+        </div> -->
+    </div> <!--- card body-->
+
+   
+    
+
+
+    <div class="card-body">
+        <div class="card">
+            <img src="./images/5suites ambika.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://www.ambikadivinityharidwar.com/" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="https://www.ambikadivinityharidwar.com/" target="_blank">www.ambikadivinityharidwar.com</a>
+         </div>
+    </div> <!--- card body-->
+
+
+
+    <div class="card-body">
+        <div class="card">
+            <img src="./images/chail-height-villas.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://chailheightsvillas.com/" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="https://chailheightsvillas.com/">www.chailheightsvillas.com</a>
+         </div>
+
+         
+    </div> <!--- card body-->
+
+
+
+
+    <div class="card-body">
+        <div class="property-desc" >
+            <h1 style="font-size: 1rem; margin-top: -16%; font-size: 1.5rem; text-decoration: underline;">Upcoming Resorts</h1>
+        </div>
+
+        <div class="card">
+            <img src="./images/chail-height-resorts.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://chailheightsresort.com" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="https://chailheightsresort.com/" target="_blank">www.chailheightsresort.com/</a>
+         </div>
+    </div> <!--- card body-->
+
+
+
+    <div class="card-body">
+        <div class="card">
+            <img src="./images/indus-valley-resorts.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://www.tsgcdelhi.com/comingsoon/ivm-resort" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="https://www.tsgcdelhi.com/comingsoon/ivm-resort" target="_blank">www.ivm-resort.com</a>
+         </div>
+    </div> <!--- card body-->
+
+
+    <div class="card-body">
+        <div class="card">
+            <img src="./images/ocean.jpg" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="http://www.oceanresortdabolim.com/" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="http://www.oceanresortdabolim.com/" target="_blank">www.oceanresortdabolim.com</a>
+         </div>
+    </div> <!--- card body-->
+
+
+
+
+    <div class="card-body">
+        <div class="property-desc">
+            <h1 style="font-size: 1.5rem; margin-top: -16%; text-decoration: underline;">Land Trading & Constructions</h1>
+        </div>
+        <div class="card">
+            <img src="./images/nirman-relators.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="http://nirmanamrealtors.com/" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+        <div class="property-type">
+            <a href="https://nirmanamrealtors.com/" target="_blank">www.nirmanamrealtors.com</a>
+         </div>
+    </div> <!--- card body-->
+
+
+    <div class="card-body">
+        <div class="card">
+            <img src="./images/shape-my-house.png" alt=""> 
+            <div class="info">
+                <!-- <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, impedit.</p> -->
+                <a href="https://www.shapemyhouse.com/" target="_blank" class="read-btn">Read More</a>
+            </div>
+        </div> <!---- card -->
+
+        <div class="property-type">
+            <a href="https://www.shapemyhouse.com/" target="_blank">www.shapemyhouse.com</a>
+         </div>
+    </div> <!--- card body-->
+
+    
+  
+
+
+   
+
+
+
+
+
+    </div> <!---wrapper-->
+</div> <!---card-container-->
+    </section>
+</div>
+<!-- ============== XX explore XX ======== -->
+
+
+</div>
+
+     
+<!-- ===== cards animations starts from here === -->
+
+
+
+    <section id="theme-feature">
+
+        <div id="theme-feature-container">
+
+            <div id="theme-feature-h">
+             
+                <h1>Our <span class="green-color-text">Gallery</span></h1>
+                <!-- <p>Lotus comes with a lot of features, we have so many of them it would take you too much time to read about our features! We decided to make a quick list of the main features, check the pages to see the features in action</p> -->
+            </div>
+
+           
+
+        </div> <!----theme-feature-container-->
+    </section> <!----- theme-feature ------>
+
+    
+
+    <!-- ======== contact-us ============ -->
+    <section id="contact">
+        <!-- <h1 id="contact-h1">Fiil The Contact Form To know more</h1> -->
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              The Shubham Group Of Companies, <br>
+              A-34, Okhala Industrial Area, <br>
+              Phase-1, Behind Hotel Crown Plaza, <br>
+              New Delhi - 110020
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <img src="img/location.png" class="icon" alt="" />
+                <p>Okhala Phase-1, Behind Hotel Crown Plaza, <br>
+                    New Delhi - 110020</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="" />
+                <p>info@tsgcdelhi.com</p>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="" />
+                <p>8510850101</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/theshubhamGroup/" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/theshubhamgroup" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/theshubhamgroup/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/shubhamgroup7/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="" autocomplete="off" method="post" name="tsgcdelhi">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" required />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" required />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" required />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+
+
+     
+
+            <div class="input-container" >
+            <select name="typeOfConsumer"  required>
+                <option value="" >Select an option </option>
+                <option value="customer">Customer</option>
+                <option value="investor">Investor</option>
+                <option value="vendor">Vendor</option>
+                <option value="associates">Associates</option>
+            </select>
+        </div>
+
+              <div class="input-container textarea">
+                <textarea name="message" class="input" required></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+
+
+              <input type="submit" value="Send" class="contact-btn" name="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- ======== XX contact-us ================= -->
+
+
+
+
+
+
+
+    <!-- map -container -->
+    <section id="map-container-large-screen">
+            
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.348989695009!2d77.2703321348877!3d28.529228200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1e1014a0f09%3A0xaf9d5a79497d2289!2sThe%20Shubham%20Group!5e0!3m2!1sen!2sin!4v1680946767560!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section> <!-----  map-container-large-screen  -->
+
+
+
+
+    <section id="contact-now">
+        <div id="contact-now-container">
+
+            <h3>ARE YOU INTERESTED ?</h3>
+            <p>Get in touch Touch with us if you would like to know more</p>
+            <div id="contact-now-btn">
+                <a href="tel:8510850101">Contact Now</a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ============= Footer ==========-->
+
+    <section id="footer">
+        <div id="footer-container">
+
+            <div id="coporate-office">
+                <h1>Corporate office</h1>
+                <p>The Shubham Group Of Companies, <br> A34, Okhala Industrial Area, <br> Phase-1, Behind Hotel Crown Plaza, <br> New Delhi - 110020</p>
+            </div>
+
+
+            <div id="main-office">
+                <h1>Main Branch Office</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eos excepturi? Deserunt, rerum dolore! Id quis suscipit expedita cum vel eum nisi maxime explicabo praesentium.</p>
+            </div>
+
+            <div id="contact-us-footer">
+                <h1>Contact US</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus ut labore dolorem perspiciatis animi!</p>
+                <a href="tel:+918510850101">+91 8510850101</a>
+                <br>
+                <a href="mailto:info@tsgcdelhi.com">info@tsgcdelhi.com</a>
+            </div>
+
+
+            <div id="media-icons">
+                <a href="https://www.facebook.com/theshubhamGroup/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/theshubhamgroup/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/theshubhamgroup" target="_blank"><i class="fab fa-twitter"></i></a>
+                <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+                <a href="https://www.linkedin.com/company/shubhamgroup7/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+
+
+              <div id="bottom">
+                <p>
+                    <!-- Copyright © 2023 <a href="#">The Shubham Group of Companies</a> All rights reserved -->
+                    Copyright © 2023 The Shubham Group of Companies All rights reserved
+                
+                
+                </p>
+              </div>
+
+        </div> <!----- footer-container -->
+    </section>
+
+    <!-- ================ XX footer XX ============= -->
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+
+<script src="script.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".mySwiper", {
+    loop: true,
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    
+  },
+  grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+</script>
+
+
+
+</body>
+
+<script>
+
+
+// responsive navbars
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+
+  }
+
+
+// XX responsive mobile navbars ends here XX
+
+
+
+// change navbar style on scroll
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('window-scroll', window.scrollY > 100)
+    })
+
+
+    // contact form
+
+    const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+
+// ==== XX contact form end here XX ====
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx5-vazPpYNZiU5XFvyfPllIUkbNlEgo6pfBYLz5m_UyRho7mJIlYcGNzMRE8ErVFDB/exec'
+        const form = document.forms['tsgcdelhi']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+   
+
+
+    
+</script>
+</html>
