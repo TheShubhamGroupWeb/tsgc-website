@@ -647,4 +647,7 @@ iframe{
     .card{
         width: 280px;
     }
+    .big-circle{
+        display: none;
+    }
 }
