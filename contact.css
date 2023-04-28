@@ -245,6 +245,12 @@ textarea.input {
   margin: 0.7rem 0;
   align-items: center;
   font-size: 0.95rem;
+
+}
+
+.information p {
+  font-family: sans-serif;
+
 }
 
 .icon {

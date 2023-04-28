@@ -10,16 +10,16 @@
             justify-content: flex-end;
             width: 100%;
             /* background-color:  #f3efea; */
-            
-            box-shadow: 7px 5px 8px #fff;
         }
+
+        
 
         .nav-logo{
           /* position: fixed; */
           width: 170px;
           margin-left: 2%;
           position: absolute;
-          top: 10%;
+          top: 0%;
           /* top: 10%; */
           z-index: 100;
         }
@@ -44,7 +44,7 @@
             /* gap: 3rem; */
             padding: 1rem;
             font-size: 0.8rem;
-            
+            top: 3%;
         }
         
         /* navbar on scroll effect */
@@ -52,7 +52,7 @@
             position: fixed;
             width: 100%;
             z-index: 100;
-            height: 8vh;
+            height: 10vh;
             /* background-color: #222; */
             /* color: #006608;
 color: #0c362f;   */
@@ -62,6 +62,7 @@ color: #0c362f;   */
             /* padding: 1rem; */
             text-align: end;
             transition: 0.2s ease in;
+            top: 0;
         }
         
         .large-screen-menu a{
@@ -69,9 +70,9 @@ color: #0c362f;   */
             /* color: #fff; */
             color: rgb(231,184,128);
             padding-right: 1.7rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            text-shadow: 2px 3px #222;
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-shadow: 2px 2px #222;
             /* font-style: italic; */
         }
         

@@ -1,4 +1,26 @@
-gsap.from("#home-content-h", {duration: 2.5, x: -700, ease: "ease",
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+
+}
+
+
+// XX responsive mobile navbars ends here XX
+
+
+
+// change navbar style on scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('nav').classList.toggle('window-scroll', window.scrollY > 100)
+  })
+
+
+gsap.from("#home-content-h", {duration: 2.5, x: -900, ease: "ease",
 // repeat: -1,
 delay: 1,
 // yoyo: true,
